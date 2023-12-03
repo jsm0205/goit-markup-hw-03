@@ -11,28 +11,42 @@
 <body>
     <header class="header">
         <div class="container header-container">
-        <nav class="header-navigation">
-        <a href="./index.html" class="header-logo link"> 
-        <span class="web-logo">WEB</span>
-        <span class="studio-logo">STUDIO</span>
-        </a>
+          <nav class="header-navigation">
+            <a class="header-logo link" href="./index.html">
+              <span class="web-logo">WEB</span
+              ><span class="studio-logo">STUDIO </span>
+            </a>
+  
+            <ul class="header-list list">
+              <li class="header-item">
+                <a class="header-link link current" href="#">Studio</a>
+              </li>
+              <li class="header-item">
+                <a class="header-link link" href="./portfolio.html">Portfolio</a>
+              </li>
+              <li class="header-item">
+                <a class="header-link link" href="#">Contacts</a>
+              </li>
+            </ul>
+          </nav>
+  
+          <ul class="header-address list">
+            <li>
+              <a
+                class="header-address-link link contacts"
+                href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li>
+              <a class="header-address-link link contacts" href="tel:+110001111111"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+          </ul>
+        </div>
+      </header>
 
-        <ul class="header-list list">
-        <li><a href="./index.html" class="header-link link current">Studio</a>
-        </li>
-        <li><a href="./portfolio.html" class="header-link link">Portfolio</a>
-        </li>
-        <li><a href="#" class="header-link link">Contacts</a>
-        </li>
-        </ul>
-        </nav>
-
-        <ul class="header-address list">
-        <li><a href="mailto:info@devstudio.com" class="contacts">info@devstudio.com</a></li>
-        <li><a href="tel:+110001111111" class="contacts">+11 (000) 111-11-11</a></li>
-    </ul>
-    </div>
-</header>  
     
     <main>
         <section class="section">
@@ -40,61 +54,82 @@
       <!-- Button  -->
             <div class="container filter-container">
             <ul class="filter list">
-                <li><button type="button" class="filter-button active">All</button></li>
-                <li><button type="button" class="filter-button">Web Site</button></li>
-                <li><button type="button" class="filter-button">App</button></li>
-                <li><button type="button" class="filter-button">Design</button></li>
-                <li><button type="button" class="filter-button">Marketing</button></li>
+                <li><button type="button" class="filter-item active">All</button></li>
+                <li><button type="button" class="filter-item">Web Site</button></li>
+                <li><button type="button" class="filter-item">App</button></li>
+                <li><button type="button" class="filter-item">Design</button></li>
+                <li><button type="button" class="filter-item">Marketing</button></li>
             </ul>
             </div>
 
 
        <!--  Project Item  -->
-            <div>
+          
 
             <ul class="project list">
+
                 <li class="project-item"><img src="./images/project-1.jpg" alt="bank app" width="360">
-                    <h3>Banking App Interface Concept</h3>
-                    <p>App</p>
+                    <div class="project-name">
+                    <h3 class="project-title ">Banking App Interface Concept</h3>
+                    <p class="project-title-bottom">App</p>
+                </div>
+
                 </li>
                 <li><img src="./images/project-2.jpg" alt="cashless" width="360"> 
-                    <h3>Cashless Payment Marketing</h3>
-                    <p>Marketing</p>
+                    <div class="project-name">
+                    <h3 class="project-title ">Cashless Payment Marketing</h3>
+                    <p class="project-title-bottom">Marketing</p>
+                    </div>
                 </li>
-                <li><img src="./images/project-3.jpg" alt="meditation app" width="360">
-                    <h3>Meditation App</h3>
-                    <p>App</p>
+                <li  class="project-item"><img src="./images/project-3.jpg" alt="meditation app" width="360">
+                    <div class="project-name">
+                    <h3 class="project-title ">Meditation App</h3>
+                    <p class="project-title-bottom">App</p>
+                    </div>
                 </li>
 
-                <li>
+                <li class="project-item">
                     <img src="./images/project-4.jpg" alt="taxi service" width="360">
-                    <h3>Taxi Service</h3>
-                    <p>Marketing</p>
+                    <div class="project-name">
+                    <h3 class="project-title ">Taxi Service</h3>
+                    <p class="project-title-bottom">Marketing</p>
+                    </div>
                 </li>
-                <li>
+                <li class="project-item">
                     <img src="./images/project-5.jpg" alt="screen illustrations" width="360">
-                    <h3>Screen Illustrations</h3>
-                    <p>Design</p>
+                    <div class="project-name">
+                    <h3 class="project-title ">Screen Illustrations</h3>
+                    <p class="project-title-bottom">Design</p>
+                    </div>
                 </li>
-                <li>
+                <li class="project-item">
                     <img src="./images/project-6.jpg" alt="online courses" width="360">
-                    <h3>Online Courses</h3>
-                    <p>Marketing</p>
+                    <div class="project-name">
+                    <h3 class="project-title ">Online Courses</h3>
+                    <p class="project-title-bottom">Marketing</p>
+                    </div>
                 </li>
-                <li>
+                <li class="project-item">
                     <img src="./images/project-7.jpg" alt="instagram stories" width="360">
-                    <h3>Instagram Stories Concept</h3>
-                    <p>Design</p>
+                    <div class="project-name">
+                    <h3 class="project-title ">Instagram Stories Concept</h3>
+                    <p class="project-title-bottom">Design</p>
+                    </div>
                 </li>
-                <li>
+                <li class="project-item">
                     <img src="./images/project-8.jpg" alt="organic food"  width="360">
-                    <h3>Organic Food</h3>
-                    <p>Web Site</p>
+                    <div class="project-name">
+                    <h3 class="project-title ">Organic Food</h3>
+                    <p class="project-title-bottom">Web Site</p>
+                </div>
                 </li>
-                <li>
+
+                <li  class="project-item">
                     <img src="./images/project-9.jpg" alt="fresh coffee" width="360">
-                    <h3>Fresh Coffee</h3>
-                    <p>Web Site</p>
+                    <div class="project-name">
+                    <h3 class="project-title">Fresh Coffee</h3>
+                    <p class="project-title-bottom">Web Site</p>
+                </div>
                 </li>
             </ul>
         </section>

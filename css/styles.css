@@ -318,8 +318,9 @@ body {
 
 /* Portfolio */
 
-.filter-button {
+.filter-item {
     cursor: pointer;
+    padding: 12px 24px;
     border-radius: 4px;
     color: var(--IRIS, #4D5AE5);
     background-color: var(--CLOUD, #F4F4FD);
@@ -333,8 +334,8 @@ body {
     
 }
 
-.filter-button:hover,
-.filter-button:focus {
+.filter-item:hover,
+.filter-item:focus {
     color: var(--CLOUD, #F4F4FD);
     background-color: var(--OCEAN, #404BBF);
     border-color: 1px solid var(--OCEAN, #404BBF);
@@ -354,7 +355,23 @@ body {
     justify-content: center;
     align-items: center;
     gap: 24px;
-    margin bottom: 72px;
+    margin-bottom: 72px;
 }
 
+.project {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 48px 24px;
+    justify-content: center;
+    align-items: center;
+}
 
+.project-name {
+    padding: 32px 16px;
+    border: 1px solid var(--CORNFLOWER, #E7E9FC);
+    border-top: none;
+}
+
+.project-title {
+
+}
