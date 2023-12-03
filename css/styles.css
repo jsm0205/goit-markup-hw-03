@@ -74,6 +74,8 @@ body {
 
 }
 
+
+
 /* Header - Navigation */
 
 .header {
@@ -203,6 +205,10 @@ body {
 
 
 /* section 1 */
+
+.sec-title {
+    margin-bottom: 72px;
+}
 
 .section-one-list{
     display: flex;
