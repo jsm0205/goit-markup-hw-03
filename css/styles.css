@@ -71,7 +71,16 @@ body {
     line-height: 21px;
     letter-spacing: 0.54px;
     text-transform: uppercase;
+}
 
+.section-grey {
+    background-color: var(--CLOUD, #F4F4FD);
+}
+
+.our-team-background {
+    background-color: var(--WHITE, #FFF);
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
 
@@ -125,9 +134,7 @@ body {
 .header-address {
     display: flex;
     gap: 40px;
-    padding-top: 24px;
-    padding-bottom: 24px;
-    
+  
 }
 
 .header-address-link {
@@ -153,7 +160,6 @@ body {
 /* hero section */
 .hero-section { 
     background-color: var(--NAVYBLUE, #2E2F42);
-    /* display: flex; */
     align-items: center;
     justify-content: center;
     padding: 188px 0;
@@ -204,19 +210,19 @@ body {
 
 
 
-/* section 1 */
+/* SECTION BENEFITS */
 
 .sec-title {
     margin-bottom: 72px;
 }
 
-.section-one-list{
+.benefit-list{
     display: flex;
     justify-content: space-between;
 
 }
 
-.sec1-title-h3 {
+.benefits-title {
     color: var(--NAVYBLUE, #2E2F42);
     font-family: Roboto;
     font-size: 20px;
@@ -224,6 +230,7 @@ body {
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.4px;
+    margin-bottom: 8px;
 }
 
 .title-description {
@@ -237,10 +244,12 @@ body {
     letter-spacing: 0.32px;
 }
 
-/* section 2 -  section 3 */
+/*  OUR TEAM SECTION */
+
 .sectiontitle-h2 {
     color: var(--NAVY-BLUE, #2E2F42);
     text-align: center;
+    /* margin-bottom: 72px; */
 
     font-family: Roboto;
     font-size: 36px;
@@ -252,10 +261,9 @@ body {
 }
 
 
-.ourteam-h3 .portfolio-service{
+.ourteam-h3 {
 
     color: var(--NAVY-BLUE, #2E2F42);
-
     font-family: Roboto;
     font-size: 20px;
     font-style: normal;
@@ -264,20 +272,18 @@ body {
     letter-spacing: 0.4px;
 }
 
-.ourteam-position .portfolio-category {
+.ourteam-position {
     color: var(--SLATE, #434455);
-    
-
     font-family: Roboto;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 24px; 
     letter-spacing: 0.32px;
+    text-align: center;
+    margin-bottom: 32px;
 }
 
-
-/* Section 3 */
 
 .what-are-we {
     display: flex;
@@ -287,6 +293,13 @@ body {
 .our-team {
     display: flex;
     justify-content: space-between;
+}
+
+.ourteam-name {
+    text-align: center;
+    margin-bottom: 8px;
+    margin-top: 32px;
+    
 }
 
 /* FOOTER */
@@ -378,6 +391,4 @@ body {
     border-top: none;
 }
 
-.project-title {
 
-}
