@@ -349,23 +349,22 @@ body {
     font-weight: 500;
     letter-spacing:  .64px;
     border-radius: 4px;
-    border: 1px solid var(--CORNFLOWER, #E7E9FC)
+    border: 1px solid var(--CORNFLOWER, #E7E9FC);
     
 }
 
-.filter-item:hover,
-.filter-item:focus {
-    color: var(--CLOUD, #F4F4FD);
+.filter-item:hover {
+    color: var(--WHITE, #F4F4FD);
     background: var(--OCEAN, #404BBF);
-    border: 1px solid var(--CORNFLOWER, #E7E9FC);
-    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
+    border-color: var(--OCEAN, #404BBF);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
 }
 
 .active {
     color: var(--WHITE, #FFF);
     background: var(--OCEAN, #404BBF);
     border-color: 1px solid var(--CORNFLOWER, #E7E9FC);
-    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, .12), 0px 4px 4px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
 
 }
 
