@@ -367,7 +367,7 @@ body {
 .active {
     color: var(--WHITE, #FFF);
     background: var(--OCEAN, #404BBF);
-    border: 1px solid var(--CORNFLOWER, #E7E9FC);
+    border: 1px solid var(--OCEAN, #404BBF);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 
 }
